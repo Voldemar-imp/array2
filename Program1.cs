@@ -26,9 +26,9 @@ namespace array
             int maxNumber = int.MinValue;
 
             Console.WriteLine("Исходная матрица");
+            
             for (int i = 0; i < numbersArray.GetLength(0); i++)
             {
-
                 for (int j = 0; j < numbersArray.GetLength(1); j++)
                 {
                     Console.Write(numbersArray[i, j] + " ");
@@ -45,9 +45,9 @@ namespace array
             Console.WriteLine();
             Console.WriteLine("Наибольший элемент: " + maxNumber);
             Console.WriteLine("Измененная матрица." );
+            
             for (int i = 0; i < numbersArray.GetLength(0); i++)
             {
-
                 for (int j = 0; j < numbersArray.GetLength(1); j++)
                 {
                     if (numbersArray[i, j] == maxNumber)
