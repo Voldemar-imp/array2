@@ -41,9 +41,8 @@ namespace array
                 Console.WriteLine();
             }
 
-            Console.SetCursorPosition(0, numbersArray.GetLength(0) +1);
-            Console.WriteLine();
-            Console.WriteLine("Наибольший элемент: " + maxNumber);
+            Console.SetCursorPosition(0, numbersArray.GetLength(0));
+            Console.WriteLine("\n\nНаибольший элемент: " + maxNumber);
             Console.WriteLine("Измененная матрица." );
             
             for (int i = 0; i < numbersArray.GetLength(0); i++)
